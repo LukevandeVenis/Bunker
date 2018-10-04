@@ -73,8 +73,55 @@
               line-height: 35px;
             }
 
+            .footer, .footer a {
+              background-color: #CFCFCF;
+              color: #FFFFFF;
+              height: 70px;
+              line-height: 35px;
+            }
+
             .menu a {
               font-size: 22px;
+            }
+
+            .footer {
+              position: fixed;
+              bottom: 0px;
+              width: 100%;
+            }
+
+            .footer .left-footer {
+              position: absolute;
+              left: 0px;
+            }
+
+            .footer .left-footer img {
+              height: 50px;
+              padding-left: 30px;
+              padding-top: 10px;
+            }
+
+            .footer .right-footer {
+              position: absolute;
+              right: 30px;
+              color: #000000;
+              font-weight: bold;
+              padding-top: 20px;
+            }
+            .content .content-image{
+              position: absolute;
+              width: 35%;
+              left: 70px;
+              top: 140px;
+            }
+
+            .content .content-text{
+              position: absolute;
+              padding-top: 50px;
+              width: 45%;
+              right: 170px;
+              text-align: left;
+              font-size: 18px;
             }
 
         </style>
@@ -96,27 +143,30 @@
             </div>
         @endif
       </div>
-        <div class="flex-center position-ref full-height">
-
-
-            <div class="content">
-                <div class="title m-b-md">
-                    Laravel
-                </div>
-
-                <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
-                </div>
-            </div>
+      <div class="content">
+        <img src="../public/images/projectbunkers.jpg" class="content-image">
+        <div class="content-text">
+          <h1>Project Bunker</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+            eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui
+            ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
+            adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+            Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
+            Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur,
+            vel illum qui dolorem eum fugiat quo voluptas nulla pariatur</p>
         </div>
+      </div>
         <div class="footer">
-          <div class="">
-
+          <div class="left-footer">
+            <img src="../public/images/logo_deltion.png">
+          </div>
+          <div class="right-footer">
+            Kasper, Luke, Jochem, Bram & Jorrit
           </div>
         </div>
     </body>
