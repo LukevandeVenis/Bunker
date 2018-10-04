@@ -12,8 +12,6 @@
         <!-- Styles -->
         <style>
             html, body {
-                background-color: #fff;
-                color: #636b6f;
                 font-family: 'Nunito', sans-serif;
                 font-weight: 200;
                 height: 100vh;
@@ -40,6 +38,12 @@
                 top: 18px;
             }
 
+            .top-left {
+                position: absolute;
+                left: 10px;
+                top: 18px;
+            }
+
             .content {
                 text-align: center;
             }
@@ -49,7 +53,6 @@
             }
 
             .links > a {
-                color: #636b6f;
                 padding: 0 25px;
                 font-size: 12px;
                 font-weight: 600;
@@ -61,20 +64,40 @@
             .m-b-md {
                 margin-bottom: 30px;
             }
+
+            /* Header */
+            .header, .header a {
+              background-color: #FC6600;
+              color: #FFFFFF;
+              height: 70px;
+              line-height: 35px;
+            }
+
+            .menu a {
+              font-size: 22px;
+            }
+
         </style>
     </head>
     <body>
+      <div class="header">
+        @if (Route::has('login'))
+            <div class="top-left menu font-weight-bold links">
+              <a href="#">Home</a>
+              <a href="#">Vooruitgang</a>
+            </div>
+            <div class="top-right links">
+                @auth
+                    <a href="{{ url('/home') }}">Uitloggen</a>
+                @else
+                    <a href="{{ route('login') }}">Login</a>
+                    <a href="{{ route('register') }}">Register</a>
+                @endauth
+            </div>
+        @endif
+      </div>
         <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
-                        <a href="{{ route('register') }}">Register</a>
-                    @endauth
-                </div>
-            @endif
+
 
             <div class="content">
                 <div class="title m-b-md">
