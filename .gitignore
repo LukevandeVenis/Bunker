@@ -1,0 +1,13 @@
+/blog/node_modules
+/blog/public/hot
+/blog/public/storage
+/blog/storage/*.key
+/blog/vendor
+/blog/.idea
+/blog/.vscode
+/blog/.vagrant
+/blog/Homestead.json
+/blog/Homestead.yaml
+/blog/npm-debug.log
+/blog/yarn-error.log
+/blog/.env
