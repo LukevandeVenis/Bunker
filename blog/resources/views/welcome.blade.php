@@ -123,6 +123,28 @@
               text-align: left;
               font-size: 18px;
             }
+            .voorbeeld-box {
+              margin-left: 70px;
+              top: 560px;
+              position: absolute;
+              border-radius: 8px;
+              height: 400px;
+              width: 330px;
+              background-color: rgba(207, 207, 207, 0.3);
+            }
+            .voorbeeld-box-image img{
+              margin-top: 10px;
+              height: 151px;
+              border-bottom: solid;
+              border-color: #fff;
+              border-width: 5px;
+              border-radius: 5px;
+            }
+            .voorbeeld-box-text h2, .voorbeeld-box-text p {
+              text-align: left;
+              margin-left: 10px;
+              margin-right: 10px;
+            }
 
         </style>
     </head>
@@ -159,6 +181,22 @@
             Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
             Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur,
             vel illum qui dolorem eum fugiat quo voluptas nulla pariatur</p>
+        </div>
+        <div class="voorbeeld-box">
+          <div class="voorbeeld-box-image">
+            <img src="../public/images/vooruitgang1.jpg">
+          </div>
+          <div class="voorbeeld-box-text">
+            <h2><b>Project 1</b></h2>
+            <p>
+              Lorem ipsum dolor sit amet,
+              consectetur adipiscing elit,
+              sed do eiusmod tempor incididunt
+              ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam.
+            </p>
+
+          </div>
         </div>
       </div>
         <div class="footer">
