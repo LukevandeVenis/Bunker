@@ -1,15 +1,11 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-=======
 <!doctype html>
 <html lang="{{ app()->getLocale() }}">
->>>>>>> 1510ed1d499a21db3894cee207b6aa0a5fa2fa88
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<<<<<<< HEAD
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
@@ -82,7 +78,6 @@
             @yield('content')
         </main>
     </div>
-=======
     <title>Laravel</title>
 
     <!-- Fonts -->
@@ -188,6 +183,5 @@
 
     </div>
 </div>
->>>>>>> 1510ed1d499a21db3894cee207b6aa0a5fa2fa88
 </body>
 </html>
