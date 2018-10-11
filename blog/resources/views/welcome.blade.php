@@ -130,7 +130,7 @@
       <div class="header">
         @if (Route::has('login'))
             <div class="top-left menu font-weight-bold links">
-              <a href="#">Home</a>
+              <a href="{{ route('home') }}">Home</a>
               <a href="#">Vooruitgang</a>
             </div>
             <div class="top-right links">
@@ -144,7 +144,7 @@
         @endif
       </div>
       <div class="content">
-        <img src="../public/images/projectbunkers.jpg" class="content-image">
+        <img src="{{ url("/images/projectbunkers.jpg") }}" class="content-image">
         <div class="content-text">
           <h1>Project Bunker</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -163,7 +163,7 @@
       </div>
         <div class="footer">
           <div class="left-footer">
-            <img src="../public/images/logo_deltion.png">
+            <img src="{{url("/images/logo_deltion.png")}}">
           </div>
           <div class="right-footer">
             Kasper, Luke, Jochem, Bram & Jorrit
