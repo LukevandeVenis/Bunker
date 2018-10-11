@@ -19,10 +19,7 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-<<<<<<< HEAD
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-=======
 Route::get('logout', '\App\Http\Controllers\Auth\LoginController@logout');
->>>>>>> 1510ed1d499a21db3894cee207b6aa0a5fa2fa88
