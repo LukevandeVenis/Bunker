@@ -83,7 +83,7 @@
 <div class="header">
     @if (Route::has('login'))
         <div class="top-left menu font-weight-bold links">
-            <a href="#">Home</a>
+            <a href="{{ route('home') }}">Home</a>
             <a href="#">Vooruitgang</a>
         </div>
         <div class="top-right links">
