@@ -184,7 +184,7 @@
         </div>
         <div class="voorbeeld-box">
           <div class="voorbeeld-box-image">
-            <img src="../public/images/vooruitgang1.jpg">
+            <img src="{{ url("/images/vooruitgang1.jpg")}}">
           </div>
           <div class="voorbeeld-box-text">
             <h2><b>Project 1</b></h2>
