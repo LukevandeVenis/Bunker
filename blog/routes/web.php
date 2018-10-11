@@ -20,7 +20,4 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/voouruitgang', 'HomeController@post')->name('vooruitgang');
 
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
 Route::get('logout', '\App\Http\Controllers\Auth\LoginController@logout');
