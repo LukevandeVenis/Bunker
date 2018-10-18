@@ -162,6 +162,9 @@
       margin-left: 10px;
       margin-right: 10px;
     }
+    .container{
+      margin-top: 25px;
+    }
 
     </style>
 </head>
@@ -182,12 +185,10 @@
         </div>
     @endif
   </div>
-<div class="flex-center position-ref full-height">
     <div class="content">
             <!--Jorrit maak css voor content-->
             @yield("content")
     </div>
-</div>
 <div class="footer">
   <div class="left-footer">
     <img src="{{url("/images/logo_deltion.png")}}">
