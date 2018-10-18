@@ -66,6 +66,7 @@
         }
 
         /* Header */
+
         .header, .header a {
             background-color: #FC6600;
             color: #FFFFFF;
@@ -153,7 +154,7 @@
     @if (Route::has('login'))
         <div class="top-left menu font-weight-bold links">
             <a href="{{ route('home') }}">Home</a>
-            <a href="#">Vooruitgang</a>
+            <a href="{{ route('progress')}}">Vooruitgang</a>
         </div>
         <div class="top-right links">
             @auth
