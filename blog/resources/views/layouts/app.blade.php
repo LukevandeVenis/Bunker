@@ -174,6 +174,7 @@
         <div class="top-left menu font-weight-bold links">
           <a href="{{ route('home') }}">Home</a>
           <a href="{{ route('progress') }}">Vooruitgang</a>
+          <a href="{{ route('user') }}">Gebruikers</a>
         </div>
         <div class="top-right links">
             @auth

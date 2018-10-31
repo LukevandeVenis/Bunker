@@ -19,5 +19,6 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/vooruitgang', 'HomeController@post')->name('progress');
+Route::get('/Gebruikers', 'HomeController@user')->name('user');
 
 Route::get('logout', '\App\Http\Controllers\Auth\LoginController@logout');
