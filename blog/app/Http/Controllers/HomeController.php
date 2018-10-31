@@ -19,4 +19,8 @@ class HomeController extends Controller
     {
         return view('progress');
     }
+    public function user()
+    {
+        return view('user');
+    }
 }
