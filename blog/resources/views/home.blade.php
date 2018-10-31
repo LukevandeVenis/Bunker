@@ -30,6 +30,6 @@
                 Ut enim ad minim veniam.
             </p>
 
-        </di>
+        </div>
     </div>
 @stop
