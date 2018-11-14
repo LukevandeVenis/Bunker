@@ -15,5 +15,15 @@ class RoleTableSeeder extends Seeder
             'name' => 'admin',
             'title' => 'Administrator',
         ]);
+
+        $admin = Bouncer::role()->firstOrCreate([
+            'name' => 'user',
+            'title' => 'gebruiker',
+        ]);
+
+        $admin = Bouncer::role()->firstOrCreate([
+            'name' => 'moderator',
+            'title' => 'Beheerder',
+        ]);
     }
 }
