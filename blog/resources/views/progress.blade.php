@@ -1,8 +1,8 @@
 @extends('layouts.app')
 @section('content')
-  <div class="box-content">
-    <div class="box">
-        <div class="box-image">
+
+    <div class="voorbeeld-box-1">
+        <div class="voorbeeld-box-image">
             <img src="{{ url("/images/vooruitgang1.jpg")}}">
         </div>
         <div class="box-text">
@@ -18,8 +18,8 @@
         </div>
     </div>
 
-    <div class="box">
-        <div class="box-image">
+    <div class="voorbeeld-box-2">
+        <div class="voorbeeld-box-image">
             <img src="{{ url("/images/vooruitgang1.jpg")}}">
         </div>
         <div class="box-text">
@@ -35,8 +35,8 @@
         </div>
     </div>
 
-    <div class="box">
-        <div class="box-image">
+    <div class="voorbeeld-box-3">
+        <div class="voorbeeld-box-image">
             <img src="{{ url("/images/vooruitgang1.jpg")}}">
         </div>
         <div class="box-text">
@@ -52,8 +52,8 @@
         </div>
     </div>
 
-    <div class="box">
-        <div class="box-image">
+    <div class="voorbeeld-box-4">
+        <div class="voorbeeld-box-image">
             <img src="{{ url("/images/vooruitgang1.jpg")}}">
         </div>
         <div class="box-text">
@@ -69,8 +69,8 @@
         </div>
     </div>
 
-    <div class="box">
-        <div class="box-image">
+    <div class="voorbeeld-box-5">
+        <div class="voorbeeld-box-image">
             <img src="{{ url("/images/vooruitgang1.jpg")}}">
         </div>
         <div class="box-text">
@@ -86,8 +86,8 @@
         </div>
     </div>
 
-    <div class="box">
-        <div class="box-image">
+    <div class="voorbeeld-box-6">
+        <div class="voorbeeld-box-image">
             <img src="{{ url("/images/vooruitgang1.jpg")}}">
         </div>
         <div class="box-text">
@@ -103,8 +103,8 @@
         </div>
     </div>
 
-    <div class="box">
-        <div class="box-image">
+    <div class="voorbeeld-box-7">
+        <div class="voorbeeld-box-image">
             <img src="{{ url("/images/vooruitgang1.jpg")}}">
         </div>
         <div class="box-text">
