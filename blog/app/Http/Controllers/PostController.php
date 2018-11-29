@@ -21,6 +21,10 @@ class PostController extends Controller
       $view->post = $post;
       return $view;
     }
+    public function delete(Post $post){
+      $post->delete();
+      return redirect()->to('/posts')->with('Succes', 'Het item is succesvol verwijderd!');
+    }
     public function store(Request $request, $post_id=null){
       $this->validate($request, array(
         'title' => 'required|max:255',
