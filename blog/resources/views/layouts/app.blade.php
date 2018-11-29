@@ -35,6 +35,10 @@
         margin: 0;
     }
 
+    .container{
+      align-items: center;
+    }
+
     .full-height {
         height: 100vh;
     }
@@ -158,6 +162,27 @@
       border-radius: 5px;
     }
     .voorbeeld-box-text h2, .voorbeeld-box-text p {
+      text-align: left;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    .box {
+  	  margin-left: 70px;
+      position: absolute;
+      border-radius: 8px;
+      height: 400px;
+      width: 330px;
+      background-color: rgba(207, 207, 207, 0.3);
+    }
+    .box-image img{
+      margin-top: 10px;
+      height: 151px;
+      border-bottom: solid;
+      border-color: #fff;
+      border-width: 5px;
+      border-radius: 5px;
+    }
+    .box-text h2, .box-text p {
       text-align: left;
       margin-left: 10px;
       margin-right: 10px;

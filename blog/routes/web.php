@@ -19,5 +19,9 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/vooruitgang', 'HomeController@post')->name('progress');
+Route::get('/posts', 'PostController@index')->name('posts.index');
+Route::get('/posts/create', 'PostController@create')->name('posts.create');
+Route::get('/posts/{post}/edit', 'PostController@edit')->name('posts.edit');
+Route::post('/posts/store/{post_id?}', 'PostController@store')->name('posts.store');
 
 Route::get('logout', '\App\Http\Controllers\Auth\LoginController@logout');
