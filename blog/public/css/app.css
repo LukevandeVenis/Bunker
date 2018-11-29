@@ -552,6 +552,108 @@ pre code {
     margin-left: auto
 }
 
+.voorbeeld-box {
+    position: relative;
+    border-radius: 8px;
+    height: 300px;
+    width: 330px;
+    top: 300px;
+    background-color: rgba(207, 207, 207, 0.3);
+}
+
+.voorbeeld-box-image img {
+    margin-left: 15px;
+    align-items: center;
+    margin-top: 10px;
+    height: 151px;
+    border-radius: 10%;
+}
+
+.voorbeeld-box-text h2, .voorbeeld-box-text p {
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.voorbeeld-box-1 {
+    position: absolute;
+    border-radius: 8px;
+    height: 375px;
+    width: 330px;
+    top: 100px;
+    left: 100px;
+    background-color: rgba(207, 207, 207, 0.3);
+}
+
+.voorbeeld-box-2 {
+    position: absolute;
+    border-radius: 8px;
+    height: 375px;
+    width: 330px;
+    top: 100px;
+    left: 475px;
+    background-color: rgba(207, 207, 207, 0.3);
+}
+
+.voorbeeld-box-3 {
+    position: absolute;
+    border-radius: 8px;
+    height: 375px;
+    width: 330px;
+    top: 100px;
+    left: 850px;
+    background-color: rgba(207, 207, 207, 0.3);
+}
+
+.voorbeeld-box-4 {
+    position: absolute;
+    border-radius: 8px;
+    height: 375px;
+    width: 330px;
+    top: 100px;
+    left: 1225px;
+    background-color: rgba(207, 207, 207, 0.3);
+}
+
+.voorbeeld-box-5 {
+    position: absolute;
+    border-radius: 8px;
+    height: 375px;
+    width: 330px;
+    top: 525px;
+    left: 100px;
+    background-color: rgba(207, 207, 207, 0.3);
+}
+
+.voorbeeld-box-6 {
+    position: absolute;
+    border-radius: 8px;
+    height: 375px;
+    width: 330px;
+    top: 525px;
+    left: 475px;
+    background-color: rgba(207, 207, 207, 0.3);
+}
+
+.voorbeeld-box-7 {
+    position: absolute;
+    border-radius: 8px;
+    height: 375px;
+    width: 330px;
+    top: 525px;
+    left: 850px;
+    background-color: rgba(207, 207, 207, 0.3);
+}
+
+.voorbeeld-box-8 {
+    position: absolute;
+    border-radius: 8px;
+    height: 375px;
+    width: 330px;
+    top: 525px;
+    background-color: rgba(207, 207, 207, 0.3);
+}
+
 .row {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1792,10 +1894,11 @@ pre code {
 }
 
 .table {
+    position: absolute;
     width: 100%;
-    max-width: 100%;
     margin-bottom: 1rem;
-    background-color: transparent
+    background-color: transparent;
+    left: 0px;
 }
 
 .table td, .table th {
