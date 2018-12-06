@@ -15,6 +15,7 @@ class PostController extends Controller
     public function show(Post $post){
       $view = view("posts.show");
       $view->post = $post;
+      $view->comments = $post->comments;
       return $view;
     }
     public function create(){
