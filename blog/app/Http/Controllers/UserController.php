@@ -21,46 +21,17 @@ class UserController extends Controller
         $this->middleware('auth');
     }
 
-    public function edit(User $user)
-    {
-        $user = Auth::user();
-        return view('users.edit', compact('user'));
+    public function edit(User $user){
+      $view = view("users.edit");
+      $view->user = $user;
+      return $view;
+    }
+     public function store(Request $request, $user_id=null){
+      $user = User::findOrNew($user_id);
+      $user->name = $request->get('name');
+      $user->email = $request->get('email');
+      $user->save();
+      return redirect()->to('/users')->with('Succes', 'Het item is succesvol opgeslagen!');
     }
 
-    public function update(User $user)
-    {
-        if (Auth::user()->email == request('email')) {
-
-            $this->validate(request(), [
-                'name' => 'required',
-                //  'email' => 'required|email|unique:users',
-                'password' => 'required|min:6|confirmed'
-            ]);
-
-            $user->name = request('name');
-            // $user->email = request('email');
-            $user->password = bcrypt(request('password'));
-
-            $user->save();
-
-            return back();
-
-        } else {
-
-            $this->validate(request(), [
-                'name' => 'required',
-                'email' => 'required|email|unique:users',
-                'password' => 'required|min:6|confirmed'
-            ]);
-
-            $user->name = request('name');
-            $user->email = request('email');
-            $user->password = bcrypt(request('password'));
-
-            $user->save();
-
-            return back();
-
-        }
-    }
 }

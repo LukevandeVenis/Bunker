@@ -26,7 +26,7 @@ Route::get('/posts/{post}/edit', 'PostController@edit')->name('posts.edit');
 Route::post('/posts/store/{post_id?}', 'PostController@store')->name('posts.store');
 
 Route::get('/users', 'UserController@ShowUserlist')->name('user');
-Route::get('/users/{user}', 'UserController@edit')->name('user.edit');
-Route::patch('users/{user}/update',  ['as' => 'users.update', 'uses' => 'UserController@update']);
+Route::get('/users/{user}/edit', 'UserController@edit')->name('user.edit');
+Route::post('/users/store/{user_id?}', 'UserController@store')->name('users.store');
 
 Route::get('logout', '\App\Http\Controllers\Auth\LoginController@logout');

@@ -33,7 +33,7 @@
 
                 <td>{{$user->email}} </td>
 
-                <td><a href="/users/{{$user->id}}">Edit</a></td>
+                <td><a href="/users/{{$user->id}}/edit">Edit</a></td>
 
                 <td></td>
 
