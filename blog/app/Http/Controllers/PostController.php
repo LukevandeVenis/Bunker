@@ -12,6 +12,11 @@ class PostController extends Controller
       $view->posts = Post::all();
       return $view;
     }
+    public function show(Post $post){
+      $view = view("posts.show");
+      $view->post = $post;
+      return $view;
+    }
     public function create(){
       $view = view("posts.create");
       return $view;
@@ -20,6 +25,10 @@ class PostController extends Controller
       $view = view("posts.edit");
       $view->post = $post;
       return $view;
+    }
+    public function delete(Post $post){
+      $post->delete();
+      return redirect()->to('/posts')->with('Succes', 'Het item is succesvol verwijderd!');
     }
     public function store(Request $request, $post_id=null){
       $this->validate($request, array(

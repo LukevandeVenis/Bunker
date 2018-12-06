@@ -17,6 +17,7 @@
     <!-- Fonts -->
     <link rel="dns-prefetch" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
@@ -159,7 +160,7 @@
         margin-left: 10px;
         margin-right: 10px;
     }
-<<<<<<< HEAD
+
     .box {
   	  margin-left: 70px;
       position: absolute;
@@ -183,13 +184,9 @@
     }
     .container{
       margin-top: 25px;
-=======
-
-    .container {
-        padding: 0;
-        margin-top: 10px;
->>>>>>> 600b38862f98401170f79ee6d92971fb04e404b5
-    }
+      padding: 0;
+      margin-top: 10px;
+        }
 
 </style>
 </head>
@@ -198,7 +195,7 @@
     @if (Route::has('login'))
         <div class="top-left menu font-weight-bold links">
             <a href="{{ route('home') }}">Home</a>
-            <a href="{{ route('progress') }}">Vooruitgang</a>
+            <a href="{{ route('posts.index') }}">Vooruitgang</a>
             <a href="{{ route('user') }}">Gebruikers</a>
         </div>
         <div class="top-right links">
