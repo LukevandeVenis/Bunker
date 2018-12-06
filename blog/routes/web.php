@@ -21,6 +21,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 // Posts
 Route::get('/posts', 'PostController@index')->name('posts.index');
 Route::get('/posts/create', 'PostController@create')->name('posts.create');
+Route::get('/posts/{post}/show', 'PostController@show')->name('posts.show'); 
 Route::get('/posts/{post}/edit', 'PostController@edit')->name('posts.edit');
 Route::get('/posts/{post}/delete', 'PostController@delete')->name('post.delete');
 Route::post('/posts/store/{post_id?}', 'PostController@store')->name('posts.store');
