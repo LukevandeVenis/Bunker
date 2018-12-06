@@ -30,4 +30,6 @@ Route::get('/Gebruikers', 'UserController@ShowUserlist')->name('user');
 // Logout
 Route::get('logout', '\App\Http\Controllers\Auth\LoginController@logout');
 //comments
-Route::post("/posts/{post_id}/comment/create", "CommentController@save");
+Route::post("/posts/{post_id}/comment/create", "CommentController@store");
+Route::get("/posts/{post_id}/comment/{comment}/delete", "CommentController@destroy");
+Route::post("/posts/{post_id}/comment/{comment}/edit", "CommentController@update");
