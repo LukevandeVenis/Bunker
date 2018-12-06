@@ -156,7 +156,7 @@
         margin-left: 10px;
         margin-right: 10px;
     }
-<<<<<<< HEAD
+
     .box {
   	  margin-left: 70px;
       position: absolute;
@@ -180,13 +180,9 @@
     }
     .container{
       margin-top: 25px;
-=======
-
-    .container {
-        padding: 0;
-        margin-top: 10px;
->>>>>>> 600b38862f98401170f79ee6d92971fb04e404b5
-    }
+      padding: 0;
+      margin-top: 10px;
+        }
 
 </style>
 </head>

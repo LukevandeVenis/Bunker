@@ -12,6 +12,11 @@ class PostController extends Controller
       $view->posts = Post::all();
       return $view;
     }
+    public function show(Post $post){
+      $view = view("posts.show");
+      $view->post = $post;
+      return $view;
+    }
     public function create(){
       $view = view("posts.create");
       return $view;
