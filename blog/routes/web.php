@@ -28,3 +28,5 @@ Route::post('/posts/store/{post_id?}', 'PostController@store')->name('posts.stor
 Route::get('/Gebruikers', 'UserController@ShowUserlist')->name('user');
 // Logout
 Route::get('logout', '\App\Http\Controllers\Auth\LoginController@logout');
+//comments
+Route::post("/posts/{post_id}/comment/create", "CommentController@save");
