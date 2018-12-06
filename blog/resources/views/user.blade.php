@@ -14,6 +14,10 @@
 
         <th>E-mail</th>
 
+        <th></th>
+
+        <th></th>
+
         </thead>
 
         <tbody>
@@ -28,6 +32,10 @@
                 <td>{{$user->password}} </td>
 
                 <td>{{$user->email}} </td>
+
+                <td><a href="/users/{{$user->id}}">Edit</a></td>
+
+                <td></td>
 
 
             </tr>

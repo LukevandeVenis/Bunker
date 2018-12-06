@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b27f4eae-c274-4979-8669-a59c27e6dd83" name="Default" comment="" />
+    <list default="true" id="b27f4eae-c274-4979-8669-a59c27e6dd83" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/blog/resources/views/user.blade.php" afterPath="$PROJECT_DIR$/blog/resources/views/user.blade.php" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,19 +17,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="user.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/blog/resources/views/user.blade.php">
+      <file leaf-file-name="edit.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/resources/views/users/edit.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+            <state relative-caret-position="204">
+              <caret line="14" column="61" lean-forward="false" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
               <folding>
-                <marker date="1542291926982" expanded="true" signature="9:22" ph="..." />
-                <marker date="1542291926982" expanded="true" signature="33:42" ph="..." />
-                <marker date="1542291926982" expanded="true" signature="290:305" ph="..." />
-                <marker date="1542291926982" expanded="true" signature="348:357" ph="..." />
-                <marker date="1542291926982" expanded="true" signature="389:400" ph="..." />
-                <marker date="1542291926982" expanded="true" signature="432:447" ph="..." />
-                <marker date="1542291926982" expanded="true" signature="479:491" ph="..." />
+                <marker date="1544098195406" expanded="true" signature="9:22" ph="..." />
+                <marker date="1544098195406" expanded="true" signature="34:55" ph="..." />
+                <marker date="1544098195406" expanded="true" signature="67:76" ph="..." />
+                <marker date="1544098195406" expanded="true" signature="185:198" ph="..." />
+                <marker date="1544098195406" expanded="true" signature="340:368" ph="..." />
+                <marker date="1544098195406" expanded="true" signature="391:405" ph="..." />
+                <marker date="1544098195406" expanded="true" signature="426:449" ph="..." />
+                <marker date="1544098195406" expanded="true" signature="621:630" ph="..." />
+                <marker date="1544098195406" expanded="true" signature="809:820" ph="..." />
+                <marker date="1544098195406" expanded="true" signature="1008:1020" ph="..." />
               </folding>
             </state>
           </provider>
@@ -35,11 +41,21 @@
       <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="391">
+              <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="34" />
               <folding>
                 <element signature="e#7#389#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/blog/app/Http/Controllers/UserController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="5" column="36" lean-forward="false" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -66,7 +82,6 @@
         <option value="$PROJECT_DIR$/blog/database/migrations/2018_10_04_110840_create_comments_table.php" />
         <option value="$PROJECT_DIR$/blog/resources/views/welcome.blade.php" />
         <option value="$PROJECT_DIR$/blog/app/Http/Controllers/HomeController.php" />
-        <option value="$PROJECT_DIR$/blog/routes/web.php" />
         <option value="$PROJECT_DIR$/blog/resources/views/home.blade.php" />
         <option value="$PROJECT_DIR$/blog/config/app.php" />
         <option value="$PROJECT_DIR$/blog/app/User.php" />
@@ -77,9 +92,13 @@
         <option value="$PROJECT_DIR$/blog/database/seeds/UserTableSeeder.php" />
         <option value="$PROJECT_DIR$/../cps webgl/cps webgl/gl-matrix.js" />
         <option value="$PROJECT_DIR$/../cps webgl/cps webgl/app.js" />
-        <option value="$PROJECT_DIR$/blog/resources/views/layouts/app.blade.php" />
         <option value="$PROJECT_DIR$/blog/resources/views/progress.blade.php" />
         <option value="$PROJECT_DIR$/blog/public/css/app.css" />
+        <option value="$PROJECT_DIR$/blog/resources/views/user.blade.php" />
+        <option value="$PROJECT_DIR$/blog/resources/views/layouts/app.blade.php" />
+        <option value="$PROJECT_DIR$/blog/routes/web.php" />
+        <option value="$PROJECT_DIR$/blog/resources/views/users/edit.blade.php" />
+        <option value="$PROJECT_DIR$/blog/app/Http/Controllers/UserController.php" />
       </list>
     </option>
   </component>
@@ -214,6 +233,36 @@
               <item name="bunker" type="b2602c69:ProjectViewProjectNode" />
               <item name="bunker" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="blog" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="bunker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bunker" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="blog" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="bunker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bunker" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="blog" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="bunker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bunker" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="blog" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Auth" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="bunker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bunker" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="blog" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -222,6 +271,14 @@
               <item name="blog" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="bunker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bunker" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="blog" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="auth" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="bunker" type="b2602c69:ProjectViewProjectNode" />
@@ -230,6 +287,14 @@
               <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="layouts" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="bunker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bunker" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="blog" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="posts" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="bunker" type="b2602c69:ProjectViewProjectNode" />
@@ -286,17 +351,18 @@
       <workItem from="1540974042898" duration="2234000" />
       <workItem from="1541596742142" duration="2010000" />
       <workItem from="1543484851896" duration="1746000" />
-      <workItem from="1543495398255" duration="1949000" />
+      <workItem from="1543495398255" duration="8199000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48135000" />
+    <option name="totallyTimeSpent" value="54385000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15681234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21336761" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -304,7 +370,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3635135" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -328,42 +394,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/blog/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="208" column="0" lean-forward="true" selection-start-line="208" selection-start-column="0" selection-end-line="208" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/vendor/laravel/framework/src/Illuminate/Database/Connection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="717">
-          <caret line="457" column="41" lean-forward="true" selection-start-line="457" selection-start-column="41" selection-end-line="457" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/vendor/laravel/framework/src/Illuminate/Redis/Connections/Connection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1148">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/vendor/laravel/framework/src/Illuminate/Contracts/Redis/Connection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="33" lean-forward="true" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/database/migrations/2018_10_11_122353_create_bouncer_tables.php" />
-    <entry file="file://$PROJECT_DIR$/blog/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="49" lean-forward="false" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog/database/migrations/2018_10_11_124217_create_bouncer_tables.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
@@ -562,13 +592,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/database/migrations/2018_10_11_122353_create_bouncer_tables.php" />
-    <entry file="file://$PROJECT_DIR$/blog/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="49" lean-forward="false" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/index.html" />
     <entry file="file://$PROJECT_DIR$/blog/database/migrations/2018_10_11_124217_create_bouncer_tables.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -624,25 +647,15 @@
         <state relative-caret-position="1768">
           <caret line="104" column="31" lean-forward="false" selection-start-line="104" selection-start-column="31" selection-end-line="104" selection-end-column="31" />
           <folding>
-            <marker date="1542895888783" expanded="true" signature="9:22" ph="..." />
-            <marker date="1542895888783" expanded="true" signature="33:42" ph="..." />
-            <marker date="1542895888783" expanded="true" signature="144:176" ph="..." />
-            <marker date="1542895888783" expanded="true" signature="665:697" ph="..." />
-            <marker date="1542895888783" expanded="true" signature="1186:1218" ph="..." />
-            <marker date="1542895888783" expanded="true" signature="1707:1739" ph="..." />
-            <marker date="1542895888783" expanded="true" signature="2228:2260" ph="..." />
-            <marker date="1542895888783" expanded="true" signature="2749:2781" ph="..." />
-            <marker date="1542895888783" expanded="true" signature="3270:3302" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="e#7#389#0#PHP" expanded="true" />
+            <marker date="1543498527374" expanded="true" signature="9:22" ph="..." />
+            <marker date="1543498527374" expanded="true" signature="33:42" ph="..." />
+            <marker date="1543498527374" expanded="true" signature="144:176" ph="..." />
+            <marker date="1543498527374" expanded="true" signature="665:697" ph="..." />
+            <marker date="1543498527374" expanded="true" signature="1186:1218" ph="..." />
+            <marker date="1543498527374" expanded="true" signature="1707:1739" ph="..." />
+            <marker date="1543498527374" expanded="true" signature="2228:2260" ph="..." />
+            <marker date="1543498527374" expanded="true" signature="2749:2781" ph="..." />
+            <marker date="1543498527374" expanded="true" signature="3270:3302" ph="..." />
           </folding>
         </state>
       </provider>
@@ -660,30 +673,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/resources/views/layouts/app.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="116" column="27" lean-forward="false" selection-start-line="116" selection-start-column="27" selection-end-line="116" selection-end-column="27" />
-          <folding>
-            <marker date="1542895475104" expanded="true" signature="30:73" ph="..." />
-            <marker date="1542895475104" expanded="true" signature="108:128" ph="..." />
-            <marker date="1542895475104" expanded="true" signature="304:318" ph="..." />
-            <marker date="1542895475104" expanded="true" signature="337:368" ph="..." />
-            <marker date="1542895475104" expanded="true" signature="420:440" ph="..." />
-            <marker date="1542895475104" expanded="true" signature="680:702" ph="..." />
-            <marker date="1542895475104" expanded="true" signature="3095:3114" ph="..." />
-            <marker date="1542895475104" expanded="true" signature="3198:3213" ph="..." />
-            <marker date="1542895475104" expanded="true" signature="3249:3268" ph="..." />
-            <marker date="1542895475104" expanded="true" signature="3311:3326" ph="..." />
-            <marker date="1542895475104" expanded="true" signature="3443:3460" ph="..." />
-            <marker date="1542895475104" expanded="true" signature="3523:3539" ph="..." />
-            <marker date="1542895475104" expanded="true" signature="3580:3599" ph="..." />
-            <marker date="1542895475104" expanded="true" signature="3735:3744" ph="..." />
-            <marker date="1542895475104" expanded="true" signature="3835:3866" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog/public/css/app.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -692,19 +681,164 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/resources/views/user.blade.php">
+    <entry file="file://$PROJECT_DIR$/blog/resources/views/posts/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1543498527374" expanded="true" signature="9:22" ph="..." />
+            <marker date="1543498527374" expanded="true" signature="33:42" ph="..." />
+            <marker date="1543498527374" expanded="true" signature="63:78" ph="..." />
+            <marker date="1543498527374" expanded="true" signature="97:109" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/app/User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+          <caret line="7" column="49" lean-forward="false" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/app/Http/Controllers/Auth/RegisterController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-835">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/resources/views/auth/register.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1542291926982" expanded="true" signature="9:22" ph="..." />
-            <marker date="1542291926982" expanded="true" signature="33:42" ph="..." />
-            <marker date="1542291926982" expanded="true" signature="290:305" ph="..." />
-            <marker date="1542291926982" expanded="true" signature="348:357" ph="..." />
-            <marker date="1542291926982" expanded="true" signature="389:400" ph="..." />
-            <marker date="1542291926982" expanded="true" signature="432:447" ph="..." />
-            <marker date="1542291926982" expanded="true" signature="479:491" ph="..." />
+            <marker date="1539862598388" expanded="true" signature="9:22" ph="..." />
+            <marker date="1539862598388" expanded="true" signature="34:43" ph="..." />
+            <marker date="1539862598388" expanded="true" signature="225:241" ph="..." />
+            <marker date="1539862598388" expanded="true" signature="341:360" ph="..." />
+            <marker date="1539862598388" expanded="true" signature="543:555" ph="..." />
+            <marker date="1539862598388" expanded="true" signature="700:743" ph="..." />
+            <marker date="1539862598388" expanded="true" signature="768:781" ph="..." />
+            <marker date="1539862598388" expanded="true" signature="843:863" ph="..." />
+            <marker date="1539862598388" expanded="true" signature="996:1020" ph="..." />
+            <marker date="1539862598388" expanded="true" signature="1330:1350" ph="..." />
+            <marker date="1539862598388" expanded="true" signature="1497:1541" ph="..." />
+            <marker date="1539862598388" expanded="true" signature="1567:1581" ph="..." />
+            <marker date="1539862598388" expanded="true" signature="1633:1654" ph="..." />
+            <marker date="1539862598388" expanded="true" signature="1787:1812" ph="..." />
+            <marker date="1539862598388" expanded="true" signature="2125:2143" ph="..." />
+            <marker date="1539862598388" expanded="true" signature="2296:2343" ph="..." />
+            <marker date="1539862598388" expanded="true" signature="2411:2435" ph="..." />
+            <marker date="1539862598388" expanded="true" signature="2568:2596" ph="..." />
+            <marker date="1539862598388" expanded="true" signature="2917:2944" ph="..." />
+            <marker date="1539862598388" expanded="true" signature="3449:3468" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/resources/views/posts/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="49" column="8" lean-forward="false" selection-start-line="49" selection-start-column="8" selection-end-line="53" selection-end-column="11" />
+          <folding>
+            <marker date="1543498527374" expanded="true" signature="9:22" ph="..." />
+            <marker date="1543498527374" expanded="true" signature="34:59" ph="..." />
+            <marker date="1543498527374" expanded="true" signature="71:80" ph="..." />
+            <marker date="1543498527374" expanded="true" signature="176:189" ph="..." />
+            <marker date="1543498527374" expanded="true" signature="359:408" ph="..." />
+            <marker date="1543498527374" expanded="true" signature="435:449" ph="..." />
+            <marker date="1543498527374" expanded="true" signature="505:517" ph="..." />
+            <marker date="1543498527374" expanded="true" signature="616:659" ph="..." />
+            <marker date="1543498527374" expanded="true" signature="769:783" ph="..." />
+            <marker date="1543498527374" expanded="true" signature="810:831" ph="..." />
+            <marker date="1543498527374" expanded="true" signature="931:956" ph="..." />
+            <marker date="1543498527374" expanded="true" signature="1087:1132" ph="..." />
+            <marker date="1543498527374" expanded="true" signature="1253:1266" ph="..." />
+            <marker date="1543498527374" expanded="true" signature="1293:1316" ph="..." />
+            <marker date="1543498527374" expanded="true" signature="1416:1443" ph="..." />
+            <marker date="1543498527374" expanded="true" signature="1679:1701" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/resources/views/layouts/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="121" column="16" lean-forward="false" selection-start-line="121" selection-start-column="16" selection-end-line="121" selection-end-column="16" />
+          <folding>
+            <marker date="1543501281601" expanded="true" signature="30:73" ph="..." />
+            <marker date="1543501281601" expanded="true" signature="108:128" ph="..." />
+            <marker date="1543501281601" expanded="true" signature="304:318" ph="..." />
+            <marker date="1543501281601" expanded="true" signature="337:368" ph="..." />
+            <marker date="1543501281601" expanded="true" signature="420:440" ph="..." />
+            <marker date="1543501281601" expanded="true" signature="680:702" ph="..." />
+            <marker date="1543501281601" expanded="true" signature="4034:4053" ph="..." />
+            <marker date="1543501281601" expanded="true" signature="4137:4152" ph="..." />
+            <marker date="1543501281601" expanded="true" signature="4188:4207" ph="..." />
+            <marker date="1543501281601" expanded="true" signature="4250:4265" ph="..." />
+            <marker date="1543501281601" expanded="true" signature="4382:4399" ph="..." />
+            <marker date="1543501281601" expanded="true" signature="4462:4478" ph="..." />
+            <marker date="1543501281601" expanded="true" signature="4519:4538" ph="..." />
+            <marker date="1543501281601" expanded="true" signature="4674:4683" ph="..." />
+            <marker date="1543501281601" expanded="true" signature="4774:4805" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/resources/views/user.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <marker date="1543498763642" expanded="true" signature="9:22" ph="..." />
+            <marker date="1543498763642" expanded="true" signature="33:42" ph="..." />
+            <marker date="1543498763642" expanded="true" signature="328:343" ph="..." />
+            <marker date="1543498763642" expanded="true" signature="386:395" ph="..." />
+            <marker date="1543498763642" expanded="true" signature="427:438" ph="..." />
+            <marker date="1543498763642" expanded="true" signature="470:485" ph="..." />
+            <marker date="1543498763642" expanded="true" signature="517:529" ph="..." />
+            <marker date="1543498763642" expanded="true" signature="577:586" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="34" />
+          <folding>
+            <element signature="e#7#389#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/resources/views/users/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="61" lean-forward="false" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
+          <folding>
+            <marker date="1544098195406" expanded="true" signature="9:22" ph="..." />
+            <marker date="1544098195406" expanded="true" signature="34:55" ph="..." />
+            <marker date="1544098195406" expanded="true" signature="67:76" ph="..." />
+            <marker date="1544098195406" expanded="true" signature="185:198" ph="..." />
+            <marker date="1544098195406" expanded="true" signature="340:368" ph="..." />
+            <marker date="1544098195406" expanded="true" signature="391:405" ph="..." />
+            <marker date="1544098195406" expanded="true" signature="426:449" ph="..." />
+            <marker date="1544098195406" expanded="true" signature="621:630" ph="..." />
+            <marker date="1544098195406" expanded="true" signature="809:820" ph="..." />
+            <marker date="1544098195406" expanded="true" signature="1008:1020" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/app/Http/Controllers/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="5" column="36" lean-forward="false" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>

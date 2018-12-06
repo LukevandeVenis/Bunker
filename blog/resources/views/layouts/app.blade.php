@@ -118,6 +118,10 @@
         padding-top: 20px;
     }
 
+    .form-control {
+        width: 250px;
+    }
+
     .content .content-image {
         position: absolute;
         width: 35%;
