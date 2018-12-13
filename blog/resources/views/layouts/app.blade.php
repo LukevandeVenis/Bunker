@@ -187,6 +187,29 @@
       padding: 0;
       margin-top: 10px;
         }
+    .post-container{
+        width: 270px;
+        display: inline-block;
+        border-radius: 10px;
+        background-color: #DCDCDC;
+        margin-bottom: 20px;
+    }
+    .post-body{
+        width: 250px;
+        height: 200px;
+        margin: 0 auto;
+        position: relative;
+        background-color: white;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    .post-icons{
+        padding-left: 10px;
+    }
+    .post-title{
+        padding-left: 10px;
+        padding-top: 10px;
+    }
 
 </style>
 </head>

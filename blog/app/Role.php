@@ -1,10 +1,13 @@
 <?php
 
-namespace App;
+// FormController.php
 
-use Illuminate\Database\Eloquent\Model;
-
-class Role extends Model
-{
-    //
-}
+  /**
+     * Show the form for creating a new resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function create()
+    {
+        return view('create');
+    }

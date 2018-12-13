@@ -37,7 +37,9 @@ Route::post('/users/store/{user_id?}', 'UserController@store')->name('users.stor
 
 // Logout
 Route::get('logout', '\App\Http\Controllers\Auth\LoginController@logout');
-//comments
+// Comments
 Route::post("/posts/{post_id}/comment/create", "CommentController@store");
 Route::get("/posts/{post_id}/comment/{comment}/delete", "CommentController@destroy");
 Route::post("/posts/{post_id}/comment/{comment}/edit", "CommentController@update");
+
+// Forms
